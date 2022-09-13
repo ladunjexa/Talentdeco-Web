@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TalentDeco.</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Loading -->
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <!-- End of Loading -->
+
+    <!-- Header -->
+    <div id="header" class="animated slideInDown" style="animation-delay: 1.8s">
+      <div id="title">TalentDeco</div>
+      <br />
+      <div id="links">
+        <a href="#skills">skills</a>
+        <a href="#work" style="margin: 0px 60px">works</a>
+        <a href="#contact">contact</a>
+      </div>
+    </div>
+    <!-- End of Header -->
+
+    <!-- Middle -->
+    <center>
+      <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay: 1.8s">
+          Professional UI/UX Designer<br />
+          <button class="primaryBtn">Read More!</button>
+        </div>
+      </div>
+    </center>
+    <!-- End of Middle -->
+
+    <!-- Skills -->
+    <div id="portfolio">
+      <div id="skills">
+        <h1>skills.</h1>
+        <hr class="seperator" />
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum
+            tincidunt nulla, id semper mi cursus ac. Fusce turpis urna,
+            condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum
+            non euismod nulla, eu pretium risus. Curabitur porta molestie
+            vulputate. Sed tortor enim, rhoncus vel mauris vitae, elementum
+            condimentum augue. Donec fermentum lobortis lectus, in feugiat
+            turpis faucibus et. Pellentesque luctus metus vitae augue lobortis
+            sagittis vitae sit amet enim. Morbi egestas velit ac arcu fermentum
+            lacinia. Nullam eget hendrerit neque. Cras et laoreet ante. Vivamus
+            condimentum euismod commodo. Nulla pulvinar, turpis vitae
+            condimentum tempor, ex ex eleifend quam, et maximus sapien mi sed
+            est. Donec elit mi, dictum nec magna quis, mollis sollicitudin
+            ligula. Maecenas ullamcorper ante vel ullamcorper mollis. Interdum
+            et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+          <center class="skills-assets" data-tilt></center>
+        </div>
+      </div>
+      <!-- End of Skills -->
+
+      <!-- Works -->
+      <div id="work">
+        <h1>works.</h1>
+        <hr class="seperator" />
+
+        <div class="project">
+          <h2>project title 1</h2>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum
+            tincidunt nulla, id semper mi cursus ac. Fusce turpis urna,
+            condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum
+            non euismod nulla, eu pretium risus. Curabitur porta molestie
+            vulputate.
+          </div>
+          <button class="primaryBtn">visit project</button>
+          <button class="projectBtn">
+            <img src="assets/github.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="project">
+          <h2>project title 2</h2>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum
+            tincidunt nulla, id semper mi cursus ac. Fusce turpis urna,
+            condimentum sit amet dolor at, vulputate ultrices massa. Vestibulum
+            non euismod nulla, eu pretium risus. Curabitur porta molestie
+            vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In bibendum tincidunt nulla, id semper mi cursus ac. Fusce turpis
+            urna, condimentum sit amet dolor at, vulputate ultrices massa.
+            Vestibulum non euismod nulla, eu pretium risus. Curabitur porta
+            molestie vulputate.
+          </div>
+          <button class="primaryBtn">visit project</button>
+          <button class="projectBtn">
+            <img src="assets/github.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <!-- End of Works -->
+
+      <!-- Contact Us -->
+      <div id="contact">
+        <h1>contact.</h1>
+        <form>
+          <input type="text" placeholder="name" required />
+          <input type="email" placeholder="email" required /><br />
+          <textarea placeholder="your message" required rows="5"></textarea
+          ><br />
+          <button class="primaryBtn">send</button>
+        </form>
+        <center>
+          <div id="details">
+            <a class="socialBtn"><i class="fas fa-phone"></i></a>
+            <a class="socialBtn"><i class="fas fa-at"></i></a>
+            <a class="socialBtn"><i class="fab fa-twitter"></i></a>
+            <a class="socialBtn"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </center>
+      </div>
+    </div>
+    <!-- End of Contact Us -->
+
+    <!-- Footer -->
+    <div id="footer">
+      HTML | CSS | JS | Tilt.js <br /><br />
+      <a href="https://github.com/ladunjexa"
+        >Copyright &copy; All Rights Reserved.</a
+      >
+    </div>
+    <!-- End of Footer -->
+
+    <script src="index.js" type="text/javascript"></script>
+    <script src="tilt.js"></script>
+  </body>
+</html>
